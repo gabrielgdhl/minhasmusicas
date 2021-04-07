@@ -1,6 +1,7 @@
 
 html, body, .capa{
     height: 100%;
+    overflow: auto;
 }
 
 body{
@@ -162,3 +163,23 @@ h3{
 .rede-social{
     float: right;
 }
+
+/*Medias Querys*/
+
+@media screen and (max-width: 767px){
+
+h1{
+        font-size: 50px;
+        text-align: center;
+    }
+.capa .btn-custom{
+        margin: 10px 15px;
+    }
+}
+@media screen and (min-width: 768px){
+
+h1{
+        font-size: 70px;
+    }
+}
+
